@@ -268,7 +268,7 @@ margin: 32px auto 64px;
   max-width: 1184px;
   min-height: 740px;
   flex-direction: column;
-  background-image: url(../sprint-3-images/sprint-3-images/cover-trains.jpg);
+  background-image: url(./sprint-3-images/sprint-3-images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
