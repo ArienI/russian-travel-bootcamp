@@ -19,3 +19,7 @@
 **Картинки**
 
 Оптимизация картинок скаченных из Figma [оптимизировать картинки](https://tinypng.com/).
+
+![картинка из проекта](./sprint-3-images/sprint-3-images/cover-trains.jpg)
+
+![git](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgit-scm.com%2Fdownloads%2Flogos&psig=AOvVaw2EXTqdBKd-Z5DXjQU9nCqH&ust=1697515548414000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDEzqvY-YEDFQAAAAAdAAAAABB5) ![html](https://www.w3.org/html/logo/) ![css](https://www.google.com/url?sa=i&url=https%3A%2F%2F1000logos.net%2Fcss-logo%2F&psig=AOvVaw3sfDd-ACPjt7iEmRbNhbFf&ust=1697515721086000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCn-_3Y-YEDFQAAAAAdAAAAABAi)
