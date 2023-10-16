@@ -294,19 +294,18 @@
 }
 
 .cover {
-  display: flex;
-  position: relative;
-  max-width: 1184px;
-  min-height: 740px;
-  flex-direction: column;
   background-image: url(./sprint-3-images/sprint-3-images/cover-trains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: calc(94vw + (1000px - min(100vw, 1000px)) * (30 / 500));
+  height: calc(94vw * (740 / 1184));
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-decoration: none;
-  padding: 0 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0 48px 92px;
   margin: 0 auto;
   color: #FFF;
 }
