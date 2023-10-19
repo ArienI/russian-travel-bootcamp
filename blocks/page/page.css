@@ -1,0 +1,16 @@
+.page {
+  background-color: #2a2c2f;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+    .page {
+        padding: 16px 0 24px;
+      }
+}

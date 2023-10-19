@@ -1,0 +1,14 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+}
+@media screen and (max-width: 600px) {
+    .lead {
+        align-items: flex-start;
+      }
+}

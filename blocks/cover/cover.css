@@ -1,0 +1,7 @@
+.cover {
+  /* width: calc(92.5vw + (1000px - min(100vw, 1000px)) * (30 / 500));
+  height: calc(92.5vw * (740 / 1184)); */
+  display: flex;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+}

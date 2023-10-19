@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 92px;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .content {
+        row-gap: 88px;
+      }
+}
+@media screen and (max-width: 600px) {
+    .content {
+        row-gap: 64px;
+        align-items: flex-start;
+      }
+}
+@media screen and (max-width: 600px) {
+    .content > .cover:last-child {
+        margin-bottom: -64px;
+      }
+}
