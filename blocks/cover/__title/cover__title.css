@@ -11,13 +11,10 @@
   z-index: 2;
 }
 @media screen and (max-width: 600px) {
-    .cover__title {
-        text-align: center;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 35px;
-        /* 109.375% */
-        padding: 33px 16px 0;
-      }
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    /* 109.375% */
+    padding: 33px 16px 0;
+  }
 }

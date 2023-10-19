@@ -9,14 +9,10 @@
   /* 104.167% */
 }
 @media screen and (max-width: 600px) {
-    .lead__title {
-        width: 288px;
-        color: #fff;
-        text-align: center;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 44px;
-        /* 110% */
-      }
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    /* 110% */
+  }
 }

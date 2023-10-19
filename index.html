@@ -6,7 +6,6 @@
     <meta name="description" content="Путешествия по России" />
     <meta name="keywords" content="Россия, путешествия, природа" />
     <meta name="author" content="Полухина Ирина" />
-    <link rel="stylesheet" href="vendor/fonts/inter.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>Путешествия по России</title>
   </head>
@@ -16,7 +15,7 @@
       <img class="header__logo" src="./images/__logo.svg" alt="Лого Россия" />
       <ul class="header__links">
         <li>
-          <a href="#" class="header__lang-link">Ru</a>
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
         </li>
         <li><a href="#" class="header__lang-link">En</a></li>
       </ul>
@@ -52,15 +51,17 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов <span class="digit">11</span></li>
+          <li>Часовых поясов <span class="intro__digit">11</span></li>
           <li>
-            Объектов природного наследия ЮНЕСКО <span class="digit">12</span>
+            Объектов природного наследия ЮНЕСКО
+            <span class="intro__digit">12</span>
           </li>
           <li>
-            Объектов культурного наследия ЮНЕСКО <span class="digit">16</span>
+            Объектов культурного наследия ЮНЕСКО
+            <span class="intro__digit">16</span>
           </li>
-          <li>Природных заповедников <span class="digit">105</span></li>
-          <li>Аэропортов <span class="digit">241</span></li>
+          <li>Природных заповедников <span class="intro__digit">105</span></li>
+          <li>Аэропортов <span class="intro__digit">241</span></li>
         </ul>
       </section>
 
@@ -291,8 +292,12 @@
         </article>
       </section>
 
-      <section class="cover">
-        <a href="#" class="cover__overlay" target="_blank">
+      <section class="cover last__cover">
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          class="cover__overlay"
+          target="_blank"
+        >
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
@@ -304,11 +309,24 @@
 
     <footer class="footer">
       <nav class="footer__links">
-        <a href="#" target="_blank" class="footer__link">Карты</a>
-        <a href="#" target="_blank" class="footer__link">Погода</a>
-        <a href="#" target="_blank" class="footer__link">Расписание</a>
-        <a href="#" target="_blank" class="footer__link">Календарь</a>
-        <a href="#" target="_blank" class="footer__link">Путешествия</a>
+        <a href="https://yandex.ru/maps" target="_blank" class="footer__link"
+          >Карты</a
+        >
+        <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link"
+          >Погода</a
+        >
+        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link"
+          >Расписание</a
+        >
+        <a
+          href="https://calendar.yandex.ru"
+          target="_blank"
+          class="footer__link"
+          >Календарь</a
+        >
+        <a href="https://travel.yandex.ru" target="_blank" class="footer__link"
+          >Путешествия</a
+        >
       </nav>
       <p class="footer__copyright">&#169; 2023. Полухина Ирина</p>
     </footer>

@@ -7,10 +7,13 @@
   line-height: 170%;
   /* 20.4px */
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 800px) {
-    .place__url-heading {
-        line-height: 12px;
-        /* 100% */
-      }
+  .place__url-heading {
+    line-height: 12px;
+    /* 100% */
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

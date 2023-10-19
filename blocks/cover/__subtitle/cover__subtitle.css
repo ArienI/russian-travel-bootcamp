@@ -11,13 +11,10 @@
   z-index: 2;
 }
 @media screen and (max-width: 600px) {
-    .cover__subtitle {
-        text-align: center;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 16px;
-        /* 114.286% */
-        padding: 16px 16px;
-      }
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    /* 114.286% */
+    padding: 16px 16px;
+  }
 }

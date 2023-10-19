@@ -1,4 +1,4 @@
-# Проект: Путешествие по России
+# Проект: Путешествие по России [![Сайт проекта](https://img.shields.io/badge/website-up-blue)](https://arieni.github.io/russian-travel-bootcamp/)
 
 ### Обзор
 

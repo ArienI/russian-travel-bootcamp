@@ -6,18 +6,16 @@
   width: 100%;
 }
 @media screen and (max-width: 800px) {
-    .content {
-        row-gap: 88px;
-      }
+  .content {
+    row-gap: 88px;
+  }
 }
 @media screen and (max-width: 600px) {
-    .content {
-        row-gap: 64px;
-        align-items: flex-start;
-      }
-}
-@media screen and (max-width: 600px) {
-    .content > .cover:last-child {
-        margin-bottom: -64px;
-      }
+  .content {
+    row-gap: 64px;
+    align-items: flex-start;
+  }
+  .last__cover {
+    margin-bottom: 0;
+  }
 }

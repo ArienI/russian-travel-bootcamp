@@ -11,21 +11,21 @@
   position: relative;
 }
 @media screen and (max-width: 1100px) {
-    .cover__overlay {
-        padding: 195px 232px;
-      }
+  .cover__overlay {
+    padding: 195px 232px;
+  }
 }
 @media screen and (max-width: 800px) {
-    .cover__overlay {
-        padding: 115px 104px;
-      }
+  .cover__overlay {
+    padding: 115px 104px;
+  }
 }
 @media screen and (max-width: 600px) {
-    .cover__overlay {
-        padding: 0;
-        min-height: 200px;
-        max-width: 320px;
-      }
+  .cover__overlay {
+    padding: 0;
+    min-height: 200px;
+    max-width: 320px;
+  }
 }
 .cover__overlay::before {
   content: "";
