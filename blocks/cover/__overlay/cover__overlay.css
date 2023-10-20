@@ -7,6 +7,7 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   text-decoration: none;
   position: relative;
   aspect-ratio: 1184 / 740;
