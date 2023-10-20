@@ -1,8 +1,4 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 92px;
   width: 100%;
 }
 @media screen and (max-width: 800px) {
@@ -10,12 +6,9 @@
     row-gap: 88px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .content {
     row-gap: 64px;
     align-items: flex-start;
-  }
-  .last__cover {
-    margin-bottom: 0;
   }
 }

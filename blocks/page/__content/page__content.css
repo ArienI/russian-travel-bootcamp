@@ -1,17 +1,17 @@
 .page__content {
-  padding: 56px 48px 0;
+  padding: 56px 0 0;
 }
 @media screen and (max-width: 1100px) {
     .page__content {
-        padding: 48px 48px 0;
+        padding: 48px 0 0;
       }
 }
 @media screen and (max-width: 800px) {
     .page__content {
-        padding: 48px 24px 0;
+        padding: 48px 0 0;
       }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .page__content {
         padding: 48px 0 64px;
       }

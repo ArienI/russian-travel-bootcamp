@@ -13,7 +13,10 @@
   .place__url-heading {
     line-height: 12px;
     /* 100% */
+  }
+}
+@media screen and (max-width: 480px) {
+  .place__url-heading {
     padding-left: 16px;
-    padding-right: 16px;
   }
 }

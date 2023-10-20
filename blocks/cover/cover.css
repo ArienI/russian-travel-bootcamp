@@ -1,7 +1,24 @@
 .cover {
-  /* width: calc(92.5vw + (1000px - min(100vw, 1000px)) * (30 / 500));
-  height: calc(92.5vw * (740 / 1184)); */
-  display: flex;
+  padding: 92px 48px 0;
+  max-width: 1184px;
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 92px 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    padding: 90px 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover {
+    max-width: 320px;
+    padding: 66px 0 0;
+  }
 }

@@ -9,7 +9,7 @@
   text-decoration: none;
   transition: opacity 0.5s;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

@@ -8,7 +8,25 @@
   line-height: 100px;
   /* 104.167% */
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 690px) {
+  .lead__title {
+    font-size: 80px;
+    /* 110% */
+  }
+}
+@media screen and (max-width: 576px) {
+  .lead__title {
+    font-size: 75px;
+    /* 110% */
+  }
+}
+@media screen and (max-width: 541px) {
+  .lead__title {
+    font-size: 65px;
+    /* 110% */
+  }
+}
+@media screen and (max-width: 480px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
