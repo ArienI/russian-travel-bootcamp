@@ -7,15 +7,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
-  /* 150% */
 }
-@media screen and (max-width: 800px) {
-    .intro__list {
-        max-width: 720px;
-      }
-}
-@media screen and (max-width: 480px) {
-    .intro__list {
-        max-width: 288px;
-      }
+@media screen and (max-width: 768px) {
+  .intro__list {
+    margin: 34px 0 0;
+  }
 }

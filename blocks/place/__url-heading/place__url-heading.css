@@ -9,13 +9,13 @@
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .place__url-heading {
     line-height: 12px;
     /* 100% */
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 660px) {
   .place__url-heading {
     padding-left: 16px;
   }

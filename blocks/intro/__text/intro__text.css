@@ -5,15 +5,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 163%;
-  /* 26.08px */
-}
-@media screen and (max-width: 800px) {
-    .intro__text {
-        max-width: 720px;
-      }
-}
-@media screen and (max-width: 480px) {
-    .intro__text {
-        max-width: 288px;
-      }
 }
