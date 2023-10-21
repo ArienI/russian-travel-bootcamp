@@ -9,21 +9,20 @@
   font-family: "Inter", Arial, sans-serif;
 }
 @media screen and (max-width: 768px) {
-    .footer {
-        padding: 88px 24px 24px;
-      }
+  .footer {
+    padding: 88px 24px 24px;
+  }
 }
 @media screen and (max-width: 697px) {
-    .footer {
-        flex-direction: column;
-        padding: 64px 16px 24px;
-        align-items: center;
-      }
+  .footer {
+    flex-direction: column;
+    padding: 64px 16px 24px;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 480px) {
   .footer {
-      flex-direction: column;
-      padding: 0 16px;
-      align-items: flex-start;
-    }
+    padding: 0 16px;
+    align-items: flex-start;
+  }
 }
