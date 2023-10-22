@@ -5,7 +5,6 @@
 }
 
 .photo-grid__item:hover {
-  transform: scale(1.1);
-  /* Увеличение размера на 10% */
+  transform: scale(1.02);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
